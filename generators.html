@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generators & Iterators</title>
+</head>
+<body>
+    <script>
+        //Generators
+      /* console.log("this is tutorial 53");
+// Generators in JavaScript
+// 1 - 1B
+
+function* numbersGen(){
+    let i = 0;
+
+    // yield 1;
+    // yield 2;
+    // yield 3;
+    // yield 4;
+    while(true){
+        yield i++;
+        // yield (i++).toString();
+    }
+}
+
+const gen = numbersGen();
+console.log(gen.next().value);
+console.log(gen.next().value); */
+
+ // Itertors
+ const myArray = [10, 20, 30];
+
+const iterator = myArray[Symbol.iterator]();
+
+console.log(iterator.next()); // { value: 10, done: false }
+console.log(iterator.next()); // { value: 20, done: false }
+console.log(iterator.next()); // { value: 30, done: false }
+console.log(iterator.next()); // { value: undefined, done: true }
+
+    </script>
+</body>
+</html>

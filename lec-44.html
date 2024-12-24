@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Adjacent HTML</title>
+    <style>
+        body {
+  height: 100%;
+  width: 100%;
+}
+
+.yellow{
+  background-color: yellow;
+  color: white;
+}
+
+.red{
+  background-color: red;
+  color: white;
+}
+
+.text-dark{
+  color: black;
+} 
+    </style>
+</head>
+<body>
+   <!-- <div id="first">Hii</div>   -->
+    <div id="first" class="yellow text-dark">
+      <span>Hey I am good</span>
+    </div>
+   <script>
+    //  first.insertAdjentHTML('beforebegin', '<div class="test">beforebegin</div>');
+    // first.insertAdjentHTML('beforeend', '<div class="test">beforeend</div>');
+    // first.insertAdjentHTML('afterbegin', '<div class="test">afterbegin</div>');
+    // first.insertAdjentHTML('afterend', '<div class="test">afterend</div>');
+    // first.remove()
+first.className = "text-black red"
+first.classList.add("red")
+first.classList.remove("red")
+first.classList.contains("red")
+first.classList.toggle("red")
+   </script>
+</body>
+</html>

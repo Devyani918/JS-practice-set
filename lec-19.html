@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops With Arrays</title>
+</head>
+<body>
+ <script>
+//  const array = [1, 2, 3, 4, 5];
+//  array.forEach((element) => {
+    // console.log(element);
+//  });
+let num = [3, 5, 1, 2, 4]
+//for each loop
+num.forEach((element) => {
+    console.log(element * element)
+})
+// Array.from
+let name = "Harry"
+let arr = Array.from(name)
+console.log(arr)
+//for...of
+for(let i in num){
+    console.log(i)
+}
+//for...in
+for(let i in num){
+    console.log(num[i])
+}
+ </script> 
+</body>
+</html>
